@@ -11,16 +11,18 @@ public class testcalc {
 		calc.add(10, 20);
 		assertEquals(30, calc.getResult());
 	}
+	
 	@Test
 	public void testSub() {
 		calc calc = new calc();
 		calc.sub(10, 20);
 		assertEquals(-10, calc.getResult());
 	}
+	
 	@Test
-	public void testMul() {
+	public void testDiv() {
 		calc calc = new calc();
-		calc.mul(10, 20);
-		assertEquals(200, calc.getResult());
+		calc.div(20, 10);
+		assertEquals(2, calc.getResult());
 	}
 }

@@ -21,4 +21,8 @@ public class calc {
 	public void div(int x, int y) {
 		result =x/y;
 	}
+	
+	public void inc(int x) {
+		result+=x;
+	}
 }
